@@ -16,5 +16,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       run: |
-            docker build ./base/6.6.0 --file Dockerfile --tag base:$(date +%s)
-            docker build ./browsers/all-1.0.0 --file Dockerfile --tag all:$(date +%s)
+            docker build base/6.6.0 --file Dockerfile --tag base:$(date +%s)
+            docker build browsers/all-1.0.0 --file Dockerfile --tag all:$(date +%s)
