@@ -3,7 +3,6 @@
 set -e
 # entrypoint.sh file for starting the xvfb with better screen resolution, configuring and running the vnc server, running Cypress.
 rm /tmp/.X1-lock 2> /dev/null &
-vncserver -kill $DISPLAY&
 /opt/noVNC/utils/launch.sh --vnc localhost:$VNC_PORT --listen $NO_VNC_PORT &
 vncserver $DISPLAY -depth $VNC_COL_DEPTH -geometry $VNC_RESOLUTION -SecurityTypes None &
 echo "Waiting for VNC Display to be ready..."
