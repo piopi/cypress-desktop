@@ -21,13 +21,13 @@ Two type of images are provided:
 **With the base Image:** 
 
 ```
-docker run -d -p 6901:6901 -p 5901:5901 piopirahl/ -v $PWD:/src cypress-desktop-base:cypress6.7.1
+docker run -d -p 6901:6901 -p 5901:5901 -v $PWD:/src piopirahl/cypress-desktop-base:cypress6.7.1
 ```
 
 **With the Browser Image:** 
 
 ```
-docker run -d -p 6901:6901 -p 5901:5901 piopirahl/-v $PWD:/src cypress-desktop-browsers:all-1.0.1 
+docker run -d -p 6901:6901 -p 5901:5901 -v $PWD:/src piopirahl/cypress-desktop-browsers:all-1.0.1
 ```
 
 You will be able to access the noVNC windows at [http://localhost:6901](http://localhost:6901) or use your VNC viewer with `localhost:5901`
