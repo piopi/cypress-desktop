@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=/src/cypress_launch.sh
+Icon=/src/cypressicon.png
+StartupNotify=true
+Terminal=false
+Categories=Utility;X-XFCE;X-Xfce-Toplevel;
+OnlyShowIn=XFCE;
+Name=Run Program...
+Comment=Run a program
+X-XFCE-Source=file:///usr/share/applications/xfce4-run.desktop
+Path=
