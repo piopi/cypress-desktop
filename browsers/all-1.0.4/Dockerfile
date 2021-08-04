@@ -1,4 +1,4 @@
-FROM piopirahl/cypress-desktop-base:cypress8.2.0
+FROM piopirahl/cypress-desktop-base:cypress8.1.0
 USER root
 # install Chrome browser
 ENV CHROME_VERSION 92.0.4515.131

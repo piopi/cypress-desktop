@@ -45,7 +45,7 @@ RUN     git clone --branch v1.2.0 --single-branch https://github.com/novnc/noVNC
 
 # Node libraries
 RUN node -p process.versions
-RUN npm install -g "cypress@8.2.0"; \
+RUN npm install -g "cypress@8.1.0"; \
     cypress verify; \
     # Cypress cache and installed version
     # should be in the root user's home folder

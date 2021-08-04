@@ -13,8 +13,8 @@ Two type of images are provided:
 
 | Image                                    | Default                                        | Description                                                  | Monthly pulls |
 | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------ | ------------- |
-| [piopirahl/cypress-desktop-base](https://github.com/piopi/cypress-desktop/tree/main/base)     | `piopirahl/cypress-desktop-base:cypress7.5.0`  | Cypress with the desktop environment only.                   |   ![](https://img.shields.io/docker/pulls/piopirahl/cypress-desktop-base.svg?cacheSeconds=3600)            |
-| [piopirahl/cypress-desktop-browsers](https://github.com/piopi/cypress-desktop/tree/main/browsers) | `piopirahl/cypress-desktop-browsers:all-1.0.3` | Cypress with the desktop environment and with one or multiple browsers.  The tag `  all-x.x.x` include all 3 browsers (Chrome, Firefox and Edge). |      ![](https://img.shields.io/docker/pulls/piopirahl/cypress-desktop-browsers.svg?cacheSeconds=3600)         |
+| [piopirahl/cypress-desktop-base](https://github.com/piopi/cypress-desktop/tree/main/base)     | `piopirahl/cypress-desktop-base:cypress8.2.0`  | Cypress with the desktop environment only.                   |   ![](https://img.shields.io/docker/pulls/piopirahl/cypress-desktop-base.svg?cacheSeconds=3600)            |
+| [piopirahl/cypress-desktop-browsers](https://github.com/piopi/cypress-desktop/tree/main/browsers) | `piopirahl/cypress-desktop-browsers:all-1.0.5` | Cypress with the desktop environment and with one or multiple browsers.  The tag `  all-x.x.x` include all 3 browsers (Chrome, Firefox and Edge). | ![](https://img.shields.io/docker/pulls/piopirahl/cypress-desktop-browsers.svg?cacheSeconds=3600)         |
 
 ### Usage
 
